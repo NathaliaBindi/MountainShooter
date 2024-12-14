@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b528e77-26c9-46d6-aa26-069caff0ad78" name="Changes" comment="Creating Mediator Pattern.&#10;Enemies destruction.">
-      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
+    <list default="true" id="0b528e77-26c9-46d6-aa26-069caff0ad78" name="Changes" comment="Creating player shot&#10;Creating enemy shot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,10 @@
       <workItem from="1733884100514" duration="2289000" />
       <workItem from="1733926402658" duration="12800000" />
       <workItem from="1733967056963" duration="91000" />
-      <workItem from="1733967566255" duration="2588000" />
+      <workItem from="1733967566255" duration="2932000" />
+      <workItem from="1734057919575" duration="644000" />
+      <workItem from="1734100579724" duration="3091000" />
+      <workItem from="1734128746285" duration="8401000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -201,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733945601685</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creating player shot&#10;Creating enemy shot">
+      <option name="closed" value="true" />
+      <created>1733971364746</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733971364746</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,11 +236,12 @@
     <MESSAGE value="Fixing imports in Level.py File" />
     <MESSAGE value="Creating Players and Enemies&#10;Moving Players and Enemies" />
     <MESSAGE value="Creating Mediator Pattern.&#10;Enemies destruction." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating Mediator Pattern.&#10;Enemies destruction." />
+    <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating player shot&#10;Creating enemy shot" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MountainShooter$Menu.coverage" NAME="Menu Coverage Results" MODIFIED="1733326089749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/MountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1733970975394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MountainShooter$main.coverage" NAME="main Coverage Results" MODIFIED="1734139931630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MountainShooter$Game.coverage" NAME="Game Coverage Results" MODIFIED="1733319997901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>
