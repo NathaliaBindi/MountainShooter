@@ -6,6 +6,7 @@ Mountain Shooter is a 2D arcade game developed with Pygame. The game has 2 level
 
 # Feel free if you want to contribute.
 GAME MENU
+
 ![MENU](https://github.com/user-attachments/assets/e3fa3978-a71f-4013-92e3-782e0bfb2a85)
 
 GAME LEVEL 1
